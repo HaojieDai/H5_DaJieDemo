@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>大街网</title>
+        <link rel="stylesheet" href="css/reset.css"/>
+        <style>
+            footer {
+                width: 100%;
+                height: 100px;
+                background-color: #5c5c5c;
+                position: fixed;
+                bottom: 0px;
+            }
+
+            .content{width:940px; height: 100px; margin: 0px auto;}
+            .div_logo {float: left;}
+            .div_tel {float: left;}
+            .div_reg {float: right;}
+            .clear{width: 0px; height: 0px; clear: both;}
+
+            .div_logo p{background: url("img/dajie_icon.png") no-repeat;
+                height: 56px; line-height: 56px;
+                padding-left: 65px; margin-top: 20px;
+                color: #ffffff;
+                font-size: 16px;
+                border-right: 1px solid #ddd;
+                padding-right: 40px;
+            }
+            .div_tel p{margin-top: 20px; margin-left: 30px;}
+            .div_tel p span{background: url("img/dajie_tel.png") no-repeat 0px 5px;
+                height: 15px; line-height: 15px;
+                padding-left: 25px;
+                color: #b1b1b1;
+                font-size: 16px;
+            }
+            .div_tel .worktime{background: url("img/dajie_time.png") no-repeat 0px 3px;}
+            .div_tel p i{color: #ffffff; font-size: 14px; font-style: normal;}
+
+            .reg{display:block; width:135px; height:40px; background: #f36948; border-radius: 4px;
+                font-size: 18px; color: #ffffff; line-height: 40px; text-align: center;
+                margin-top: 20px; margin-bottom: 10px;
+            }
+            .login{color: #b1b1b1; font-size: 14px; margin-left: 20px;}
+        </style>
+    </head>
+
+    <body>
+        <p style="height: 1450px;"></p>
+        <footer>
+            <div class="content">
+                <div class="div_logo">
+                    <p>年轻人专属的社交招聘</p>
+                </div>
+                <div class="div_tel">
+                    <p>
+                        <span>客服电话：</span>
+                        <i>400-813-1117</i>
+                    </p>
+
+                    <p>
+                        <span class="worktime">工作时间：</span>
+                        <i>周一至周五（9:00-18:00）</i>
+                    </p>
+                </div>
+                <div class="div_reg">
+                    <a href="#" class="reg">快速注册</a>
+                    <a href="#" class="login">已有账号，登录</a>
+                </div>
+            </div>
+
+            <div class="clear"></div>
+        </footer>
+    </body>
+</html>
